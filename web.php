@@ -13,4 +13,5 @@ use App\Http\Controllers\Home;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('/', [Home::class, 'index'])->name('home');
+Route::get('/', [Home::class, 'index']);   // Tampilan tombol
+Route::get('/profil', [Home::class, 'profil']);    // Profil
